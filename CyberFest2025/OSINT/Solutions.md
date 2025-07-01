@@ -2,15 +2,20 @@
 
 ## 01 Tutorial
 
-Put "But they were my friends and friendship never ends" in Google and you will find the song "What I Am" by Witchcraft The flag is `UMC{Witchcraft}`.
+Put "But they were my friends and friendship never ends" in Google and you will find the song "What I Am" by Witchcraft.
+
+* `UMC{Witchcraft}`.
 
 ## 02 Proliferation of COVID-19
 
-A dork should do it: "Marc Hevis" +twitter. The flag is `UMC{@HevisMarc}`
+A dork should do it: "Marc Hevis" +twitter.
+
+* `UMC{@HevisMarc}`
 
 ## 03 Start at the top
 
-The Zuck probably has a number of email addresses, but any of the following work as solution:
+The Zuck probably has a number of email addresses, but any of the following
+work as solution:
 
 * `UMC{zuck@fb.com}`
 * `UMC{mark@facebook.com}`
@@ -18,16 +23,20 @@ The Zuck probably has a number of email addresses, but any of the following work
 
 ## 04 Horse head
 
-Use google maps to find the BP Station at Mansfield. Looking in the direction of Mt Buller, use street view to virtually 'walk' down the street. A horse is visible, but its coat name blurred out. Continue forward a few metres and look at the horse from the opposite direction. You should see the coat with the name 'swags'. Use map data from __2013__ -37.10376, 146,26352
+Use google maps to find the Horse at Solvalla. Looking in the direction
+of Solvalla, use street view to virtually 'walk' down the street. A horse is
+visible. Select the time window that is relevant (May 2019) and look
+at the horse. You should see the coat with the name 'PANEVINO'.
 
-Depending on map service and when the picture is taken the horse cover differs. Any of the following accepted:
+Depending on map service and when the picture is taken the horse cover differs.
+Any of the following accepted:
 
-* `UMC{OPEN}`
-* `UMC{SWAGS}`
-* `UMC{TENTS}`
+How to change the map date in Google Maps. In the web view, select satellite view,
+drop the figure in the map. click on the address specification "See more dates"
 
-* [Bing](https://www.bing.com/maps?cp=-37.060943%7E146.098554&lvl=18.4&pi=-14.7&style=x&dir=6)
-* [Google](https://www.google.com/maps/@-37.0608508,146.0984198,3a,24y,101.32h,85.89t/data=!3m8!1e1!3m6!1sSNKHw7CRnN78HJdSe8AW2Q!2e0!5s20130301T000000!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D4.1109820083872535%26panoid%3DSNKHw7CRnN78HJdSe8AW2Q%26yaw%3D101.31532543562581!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI1MDUwNi4wIKXMDSoASAFQAw%3D%3D)
+* `UMC{PANEVINO}`
+
+[Horse](https://www.google.com/maps/@59.3665797,17.9444173,3a,68.8y,242.5h,89.79t/data=!3m8!1e1!3m6!1sQonBR7xk2zgKut2ISBfhjw!2e0!5s20190501T000000!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0.21473096948032833%26panoid%3DQonBR7xk2zgKut2ISBfhjw%26yaw%3D242.49728563759777!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D)
 
 ## 05 Propaganda broadcast
 
@@ -37,15 +46,17 @@ Go to the [FCC](https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAmateur.jsp) ra
 
 ## 06 Big Beautiful Transit
 
-Find the pedestrian counting system in the city of Melbourne. Locate the sensor for the Southern Cross Station. The data is available on the [City of Melbourne - Pedestrian Counting System](https://www.pedestrian.melbourne.vic.gov.au/#date=09-05-2025&sensor=Col700_T&time=14) website. The exact number of pedestrians that walked through Southern Cross Station at 4am, on Friday, the 28th of February is 14.
+Find the pedestrian counting system in the city of Melbourne. Locate the sensor for the Southern Cross Station. The data is available on the [City of Melbourne - Pedestrian Counting System](https://www.pedestrian.melbourne.vic.gov.au/#date=06-01-2020&sensor=Col700_T&time=5) website. The exact number of pedestrians that walked through Southern Cross Station at 5am, on Monday, the 6th of January 2020 is 58.
 
-* `UMC{14}`
+* `UMC{58}`
 
 ## 07 Where in the world?
 
 Reverse image search the image. The result varies between engines I had the hardest time finding it on Google, Yandex, Bing and TinyEye. If you ask an AI if the image if real or fake they all indicated possible generated content. The image is created and can be found on [Probabletrain](https://maps.probabletrain.com/#/stl) [3D rendered city image](https://maps.probabletrain.com/images/STL/30.jpg)
 
 * `UMC{fake}`
+* `UMC{City Map Generator}`
+* `UMC{Probabletrain}`
 
 ## 08 COVID in transit
 
