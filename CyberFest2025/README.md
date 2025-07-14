@@ -15,11 +15,11 @@ This year there are two different challenges to choose from.
   
   Accessible for everyone, no prerequisites. It will give you some tools to vet
   information and insight into what the things you post online can be used for.
-* API penetration test - One Request hosted by the
-[APISEC University]https://www.apisecuniversity.com/)
 
-This challenge is a bit more advanced and requires some knowledge of API
-security. It will give you an insight into how APIs can be exploited and how
+* API penetration test - One Request hosted by the [APISEC University](https://www.apisecuniversity.com/)
+
+  This challenge is more advanced and requires some knowledge of API development and
+security. It will give you insight into how APIs can be exploited and how
 to secure them.
 
 Both exercises are pre-existing challenges with more or less complete
