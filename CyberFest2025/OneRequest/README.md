@@ -1,5 +1,4 @@
-# One Request
-
+# Gamified cybersecurity and OSINT/API puzzle
 
 ## Preparation
 
@@ -10,6 +9,9 @@
 1) There is a [Postman Collection](https://one-request.malteksolutions.com/developers#postman) available to help you get started with the API or you can use the [Swagger UI](https://one-request.malteksolutions.com/docs)
 1) Im using the Swagger UI and curl for the walkthrough
 1) Register account.
+
+## Steps
+
     - Endpoint: /register
     - Use the following details:
       ```json
@@ -37,6 +39,7 @@
         ]
       }
       ```
+
 1) Get token
     - Endpoint: /login
     - Use the following details:
