@@ -1,7 +1,8 @@
-# UMC CyberFest 2025
+# UMC CTRL+ALT+DELETE TacoSec 2025
 
-Welcome to the UMC CyberFest 2025. Most challenges can ve solved with a browser
-and some know-how. Online tools might be helpful - but not required.
+Welcome to the `UMC CTRL+ALT+DELETE TacoSec 2025`. Most challenges can be
+solved with a browser and some know-how. Online tools might be helpful - but
+not required.
 
 The tasks are in the format of Capture The Flag (CTF) challenges. You will be
 given a task and you need to find the flag. The flag is a string in the format
@@ -16,7 +17,6 @@ solutions available. Do restrain yourself from looking at the solutions
 before you have tried to solve the challenges yourself. The goal is to learn
 and have fun, not to get the fastest solution. But if you are stuck, feel
 free to look at the solutions and try to understand how they work.
-
 
 ## OSINT - Open Source Intelligence
   
@@ -48,7 +48,6 @@ This challenge is more advanced and requires some knowledge of API development
 and security. It will give you insight into how APIs can be exploited and how
 to secure them.
 
-
 This exercise focus on how to critically analyze an API on order to identify
 potential security vulnerabilities and how to exploit them. What information is
 exposed through the API? How can it be manipulated?
@@ -68,5 +67,3 @@ provided).
 * JSON parsing: Reading and crafting JSON payloads.
 * Basic scripting or automation (optional): For chaining requests or analyzing
 responses.
-
-  
