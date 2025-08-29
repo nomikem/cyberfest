@@ -1,4 +1,4 @@
-# UMC CTRL+ALT+DELETE TacoSec 2025
+# UMC CTRL+ALT+DEFEND TacoSec 2025
 
 ## Learn, Explore, and Challenge Yourself in Cybersecurity!
 
@@ -18,7 +18,7 @@ This year, you can choose between two exciting tracks:
 
 ### OSINT – Open Source Intelligence
 
-No prerequisites needed — just your investigative mindset! This challenge teaches you how publicly available information can be used in both ethical hacking and real-world investigations.
+Almost no prerequisites needed (one X account is required) — just your investigative mindset! This challenge teaches you how publicly available information can be used in both ethical hacking and real-world investigations.
 
 **Why try OSINT?**
 

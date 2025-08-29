@@ -1,4 +1,4 @@
-# UMC CyberFest 2025 - OSINT
+# UMC CTRL+ALT+DELETE TacoSec 2025 - OSINT
 
 ## Background
 
@@ -20,9 +20,10 @@ __Tasks:__
 10) Trace baby trace - Difficulty 1 (5)
 11) Art location - Difficulty 1 (5)
 12) A stroll in the park - Difficulty 1 (5)
-13) Suburbs - Difficulty 3 (5)
+13) Suburbs - Difficulty 4 (5)
 14) Those pictures - Difficulty 2 (5)
 15) Da Face - Difficulty 4 (5)
+
 100) Not so secret... - Difficulty 2 (5)
 
 Answers should be submitted in the format `UMC{<answer>}` to Mikael Emanuelsson
